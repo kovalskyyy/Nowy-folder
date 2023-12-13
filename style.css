@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(32, 31, 31);
+}
+
+#registrationFormContainer {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
+#registrationFormContainer .btn-primary {
+  background-color: rgb(102, 178, 255);
+  border-color: rgb(102, 178, 255);
+}
+
+#registrationFormContainer .btn-primary:hover {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+h1, label {
+  text-align: center;
+  text-shadow: 0 0 40px rgb(102, 178, 255);
+}
+
+
+.form-group input:focus {
+  border-color: rgb(102, 178, 255);
+  box-shadow: 0 0 50px rgb(102, 178, 255);
+  font-weight: bold;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group label {
+  font-weight: bold;
+  
+}
+
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: rgb(102, 178, 255);
+  box-shadow: 0 0 50px rgb(102, 178, 255);
+  
+}
